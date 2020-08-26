@@ -3,6 +3,15 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
 
+
+# MAC OS dydtem files
+Icon?
+Icon?
+Icon
+Icon^M
+.DS_Store
+
+
 # User-specific files
 *.rsuser
 *.suo
@@ -348,3 +357,4 @@ MigrationBackup/
 
 # Ionide (cross platform F# VS Code tools) working folder
 .ionide/
+AIP4/AIP4/Icon

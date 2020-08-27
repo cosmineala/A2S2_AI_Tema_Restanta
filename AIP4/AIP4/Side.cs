@@ -1,6 +1,12 @@
 ﻿using System;
 namespace AIP4
 {
+    public enum Chosen
+    {
+        left,
+        right
+    }
+
     public enum Role
     {
         left,
@@ -11,17 +17,12 @@ namespace AIP4
 
     public enum Move
     {
-        alighn_horizontal,
-        alignh_vertical,
-
-        jump_over,
-        hold_vertical,
-        hold_horizontal,
-
-        run_horizontal,
-        run_verical,
-
-        right_joker_move
+        initial_down,
+        horizontal,
+        vertical,
+        done
         
     }
+
+
 }

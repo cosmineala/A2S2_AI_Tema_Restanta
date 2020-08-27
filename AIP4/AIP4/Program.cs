@@ -7,6 +7,9 @@ namespace AIP4
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
+
+            ParkingLot parkingLot = new ParkingLot(9);
+
         }
     }
 }
